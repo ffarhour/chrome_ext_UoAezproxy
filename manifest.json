@@ -1,0 +1,27 @@
+{
+    "manifest_version": 2,
+    "name": "UoA ezproxy redirect",
+    "version": "0.0.0.1",
+
+    "description": "Add ezproxy.auckland.ac.nz to the end of the domain name",
+
+    "author": "Farmehr Farhour f.farhour@gmail.com",
+
+    "permissions": [
+        "tabs"
+    ],
+
+    "background": {
+        "scripts": ["background.js"],
+        "persistent": false
+    },
+
+    "browser_action": {
+        "default_icon": "icon2.png",
+        "default_title": "Add ezproxy.auckland.ac.nz to the end of the domain name"
+    },
+
+    "icons": { "16": "icon2.png",
+           "48": "icon.png",
+          "128": "icon.png" }
+}
